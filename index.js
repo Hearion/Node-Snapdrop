@@ -64,6 +64,59 @@ if (publicRun == 'public') {
 const parser = require('ua-parser-js');
 const { uniqueNamesGenerator, animals, colors } = require('unique-names-generator');
 
+const genshinFeaturedCharacters = [
+    "琴",
+    "迪卢克",
+    "莫娜",
+    "刻晴",
+    "温迪",
+    "七七",
+    "辛焱",
+    "重云",
+    "北斗",
+    "阿贝多",
+    "甘雨",
+    "达达利亚",
+    "香菱",
+    "魈",
+    "胡桃",
+    "罗莎莉亚",
+    "行秋",
+    "神里绫华",
+    "砂糖",
+    "菲谢尔",
+    "巴巴托斯",
+    "凝光",
+    "雷泽",
+    "烟绯",
+    "迪奥娜",
+    "诺艾尔",
+    "狮牙",
+    "芭芭拉",
+    "法夫尼尔",
+    "班尼特",
+    "荧",
+    "安柏",
+    "莉莉亚",
+    "菲谢尔",
+    "芭芭拉",
+    "凝光",
+    "雷泽",
+    "行秋",
+    "甘雨",
+    "钟离",
+    "阿拉莫",
+    "瑞克特",
+    "行秋",
+    "凯亚",
+    "砂糖",
+    "菲谢尔",
+    "芭芭拉",
+    "凝光",
+    "雷泽",
+    "行秋"
+];
+
 class SnapdropServer {
 
     constructor() {
@@ -99,7 +152,7 @@ class SnapdropServer {
     }
 
     _onMessage(sender, message) {
-        // Try to parse message 
+        // Try to parse message
         try {
             message = JSON.parse(message);
         } catch (e) {
@@ -223,7 +276,7 @@ class Peer {
         this._setPeerId(request)
         // is WebRTC supported ?
         this.rtcSupported = request.url.indexOf('webrtc') > -1;
-        // set name 
+        // set name
         this._setName(request);
         // for keepalive
         this.timerId = 0;
@@ -259,11 +312,11 @@ class Peer {
 
 
         let deviceName = '';
-        
+
         if (ua.os && ua.os.name) {
             deviceName = ua.os.name.replace('Mac OS', 'Mac') + ' ';
         }
-        
+
         if (ua.device.model) {
             deviceName += ua.device.model;
         } else {
@@ -274,9 +327,9 @@ class Peer {
             deviceName = 'Unknown Device';
 
         const displayName = uniqueNamesGenerator({
-            length: 2,
+            length: 1,
             separator: ' ',
-            dictionaries: [colors, animals],
+            dictionaries: [genshinFeaturedCharacters],
             style: 'capital',
             seed: this.id.hashCode()
         })

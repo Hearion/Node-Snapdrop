@@ -123,6 +123,7 @@ body {
 .font-body2 {
     font-size: 12px;
     line-height: 18px;
+    text-align: center;
 }
 
 a {
@@ -178,7 +179,6 @@ body>header a {
 
 x-peers {
     width: 100%;
-    overflow: hidden;
     flex-flow: row wrap;
     z-index: 2;
 }
@@ -668,12 +668,12 @@ screen and (min-width: 1100px) {
     }
 }
 
-/* 
+/*
     iOS specific styles
 */
 @supports (-webkit-overflow-scrolling: touch) {
 
-    
+
     html {
         position: fixed;
     }
@@ -720,7 +720,7 @@ x-dialog x-paper {
 #img-preview{
     max-width:100%;
     max-height:100%;
-   
+
 }
 
 
@@ -743,7 +743,7 @@ x-dialog x-paper {
 }
 
 
-/* 
+/*
     Edge specific styles
 */
 @supports (-ms-ime-align: auto) {
