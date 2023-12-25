@@ -1,41 +1,35 @@
-# node-snapdrop [![CodeQL](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml)
+# Node-Snapdrop [![CodeQL](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml)
 
-Just the original [Snapdrop](https://github.com/RobinLinus/Snapdrop), with complete Node.js server.
-
-> **Warning**\
-> Due to [Heroku Free Plan Shutdown](https://github.com/Bellisario/node-snapdrop/issues/15), node-snapdrop server has changed and can now be reached [here](https://node-snapdrop.onrender.com).\
-> Old server will be kept (without any code update) until November 28, 2022, then it will be shutdown by Heroku.
+只是最初的 [Snapdrop](https://github.com/RobinLinus/Snapdrop)，带有完整的Node.js服务器。
 
 ## Getting started
 
-To get started, clone and cd the repo:
+首先，克隆并 cd 到存储库目录：
 
 ```bash
-git clone https://github.com/Bellisario/node-snapdrop.git && cd node-snapdrop
+git clone https://github.com/Hearion/Node-Snapdrop.git && cd Node-Snapdrop
 ```
 
-Install all dependencies with NPM:
+使用 NPM 安装所有依赖项：
 
 ```bash
 npm install
 ```
 
-Start the server with:
+使用以下命令启动服务器：
 
 ```bash
 node index.js
 ```
 
-### Public Run
+### 公开运行
 
-If you want to run in your public "sharable" IP instead of locally, you can use this command:
+如果您想在公共“可共享”IP 中运行而不是在本地运行，可以使用以下命令：
 
 ```bash
 node index.js public
 ```
 
-> Remember to check your IP Address using your OS command to see where you can access the server.
+> 请记住使用操作系统命令检查您的 IP 地址，以了解可以访问服务器的位置。
 
-## How to contribute
-
-Feel free to [open an issue](https://github.com/Bellisario/node-snapdrop/issues/new/choose) or a [pull request](https://github.com/Bellisario/node-snapdrop/pulls) but follow [Contributing Guidelines](https://github.com/Bellisario/node-snapdrop/blob/main/CONTRIBUTING.md).
+- 本仓库只对项目内部分文字进行修改，你可以在这里找到源代码 [node-snapdrop](https://github.com/Bellisario/node-snapdrop)。
