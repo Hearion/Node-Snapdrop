@@ -1,4 +1,4 @@
-# Node-Snapdrop [![CodeQL](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml)
+# Node-Snapdrop
 
 只是最初的 [Snapdrop](https://github.com/RobinLinus/Snapdrop)，带有完整的Node.js服务器。
 - 本仓库只对项目内部分文字进行修改，你可以在这里找到源代码 [node-snapdrop](https://github.com/Bellisario/node-snapdrop)。
