@@ -1,6 +1,7 @@
 # Node-Snapdrop [![CodeQL](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml)
 
 只是最初的 [Snapdrop](https://github.com/RobinLinus/Snapdrop)，带有完整的Node.js服务器。
+- 本仓库只对项目内部分文字进行修改，你可以在这里找到源代码 [node-snapdrop](https://github.com/Bellisario/node-snapdrop)。
 
 ## Getting started
 
@@ -31,5 +32,3 @@ node index.js public
 ```
 
 > 请记住使用操作系统命令检查您的 IP 地址，以了解可以访问服务器的位置。
-
-- 本仓库只对项目内部分文字进行修改，你可以在这里找到源代码 [node-snapdrop](https://github.com/Bellisario/node-snapdrop)。
