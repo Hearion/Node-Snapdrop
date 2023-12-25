@@ -1,17 +1,17 @@
 # Node-Snapdrop
 
-只是最初的 [Snapdrop](https://github.com/RobinLinus/Snapdrop)，带有完整的Node.js服务器。
+只是最初的 [Snapdrop](https://github.com/RobinLinus/Snapdrop)，带有完整的 `Node.js` 服务器。
 - 本仓库只对项目内部分文字进行修改，你可以在这里找到源代码 [node-snapdrop](https://github.com/Bellisario/node-snapdrop)。
 
 ## Getting started
 
-首先，克隆并 cd 到存储库目录：
+首先，克隆并 `cd` 到存储库目录：
 
 ```bash
 git clone https://github.com/Hearion/Node-Snapdrop.git && cd Node-Snapdrop
 ```
 
-使用 NPM 安装所有依赖项：
+使用 `NPM` 安装所有依赖项：
 
 ```bash
 npm install
